@@ -1,0 +1,9 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*1fr = one fraction, hay 4 columnas iguales y entre cada columna
+    hay 20 pixeles de separacion*/
+    grid-gap: 20px;
+}
